@@ -1,0 +1,58 @@
+
+/* .home { 
+    display: table-cell;
+    text-align: center; 
+    vertical-align: middle; 
+    height: 100vh;
+    width: 100vw;
+}  */
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.home__image{
+    width: 70%;
+    height: 20%;
+    padding-bottom: 20px;
+}
+
+.home__trainer {
+    font-size: 40px;
+    color: red;
+}
+
+.home__name {
+    font-size: 32px;
+    color: rgb(43, 41, 41);
+    padding-bottom: 20px;
+}
+
+.home__form input {
+    box-shadow: 0.05px 1px 1px 1px rgb(87, 82, 82);
+    border: none;
+}
+
+.home__form button {
+    background-color: rgb(204, 81, 81);
+    color: white;
+    width: 70px;
+    box-shadow: 0.05px 1px 1px 1px rgb(87, 82, 82);
+    border: none;
+}
+
+.home__footer {
+    background-image: url('../../../public/assets/footer.webp');
+    background-size: cover;
+    position: fixed;
+    background-position: center;
+    bottom: 0;
+    left: 0px;
+    width: 100vw;
+    height: 130px;
+}
+
