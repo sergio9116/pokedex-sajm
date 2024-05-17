@@ -46,7 +46,7 @@
 }
 
 .home__footer {
-    background-image: url('../../../public/assets/footer.webp');
+    background-image: url('../../../assets/footer.webp');
     background-size: cover;
     position: fixed;
     background-position: center;

@@ -126,6 +126,7 @@
     padding-top: 30px;
     padding-bottom: 30px;
     flex-wrap: wrap;
+    overflow: hidden;
 }
 
 
